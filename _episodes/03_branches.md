@@ -11,5 +11,6 @@ objectives:
 - "How to switch between branches"
 - "How to merge branches"
 keypoints:
-- " "
+- "Branches help you explore "
+- "Use of checkout for branches"
 ---
