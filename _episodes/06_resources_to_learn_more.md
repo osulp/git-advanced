@@ -12,6 +12,11 @@ keypoints:
 - "Build your community"
 ---
 
+## Books
+
+Pro Git book: written by Scott Chacon and Ben Straub and published by Apress. It is available for free with a [CC BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) in [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2).
+
+## Tutorials
 
 ## About the why of version control for scientists
 
