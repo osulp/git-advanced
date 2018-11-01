@@ -23,8 +23,8 @@ Bryan, J. (2017). Excuse Me, Do You Have a Moment to Talk About Version Control?
 
 ## Cheat sheets
 
-[https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf](Git cheat sheet) created by GitHub. 
+[Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) created by GitHub. 
 
-[https://github.com/osulp/git-beginner/blob/gh-pages/files/IntroToGitCheatSheet.pdf](Cheat sheet) to follow the Git-beginner lesson.
+[Cheat sheet](https://github.com/osulp/git-beginner/blob/gh-pages/files/IntroToGitCheatSheet.pdf) to follow the Git-beginner lesson.
 
-[https://github.com/osulp/git-beginner/blob/gh-pages/files/CommandLineCheatSheet.pdf](Command line cheat sheet): this is a very simple cheat sheet that includes only the commands that will be necessary for the Git-beginner and Git-advanced lessons. 
+[Command line cheat sheet](https://github.com/osulp/git-beginner/blob/gh-pages/files/CommandLineCheatSheet.pdf): this is a very simple cheat sheet that includes only the commands that will be necessary for the Git-beginner and Git-advanced lessons. 
