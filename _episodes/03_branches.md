@@ -1,16 +1,17 @@
-
 ---
 title: Branches
-teaching: 15
+teaching: 25
 exercises: 0
 questions:
 - "How do I create a branch for my project?"
 objectives:
-- "Explain what branches are and what are good for. "
-- "How to create a new branch"
-- "How to switch between branches"
-- "How to merge branches"
+- "Understand what branches are and what are good for"
+- "Create a new branch"
+- "Switch between branches"
+- "Merge branches"
 keypoints:
-- "Branches help you explore "
-- "Use of checkout for branches"
+- "`git branch` creates a branch."
+- "`git checkout` allows you to switch between branches"
+- "`git merge` to merge branches"
 ---
+
