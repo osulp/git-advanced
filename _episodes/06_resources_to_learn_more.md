@@ -28,3 +28,9 @@ Bryan, J. (2017). Excuse Me, Do You Have a Moment to Talk About Version Control?
 [Cheat sheet](https://github.com/osulp/git-beginner/blob/gh-pages/files/IntroToGitCheatSheet.pdf) to follow the Git-beginner lesson.
 
 [Command line cheat sheet](https://github.com/osulp/git-beginner/blob/gh-pages/files/CommandLineCheatSheet.pdf): this is a very simple cheat sheet that includes only the commands that will be necessary for the Git-beginner and Git-advanced lessons. 
+
+## GitHub Education
+
+GitHub offers tools for researchers and educators, including unlimited free private repositories for your academic research work. Learn more about it [here](https://help.github.com/articles/about-github-education-for-educators-and-researchers/).
+
+GitHub offers the Student Developer Pack, that includes unlimited free private repositories for students. Learn more about it [here](https://education.github.com/pack).
