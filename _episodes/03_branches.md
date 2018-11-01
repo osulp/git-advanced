@@ -5,7 +5,7 @@ exercises: 0
 questions:
 - "How do I create a branch for my project?"
 objectives:
-- "Understand what branches are and what are good for"
+- "Understand what branches are and what they are good for"
 - "Create a new branch"
 - "Switch between branches"
 - "Merge branches"
