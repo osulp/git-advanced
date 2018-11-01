@@ -12,11 +12,17 @@ keypoints:
 - "Build your community"
 ---
 
+## Official documentation 
+
+The official git site, https://git-scm.com/doc, has a lot of documentation to get you started. It includes a curated list of [external resources](https://git-scm.com/doc/ext) that include tutorials, books, videos and courses.   
+
 ## Books
 
 Pro Git book: written by Scott Chacon and Ben Straub and published by Apress. It is available for free with a [CC BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/) in [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2).
 
 ## Tutorials
+
+Tutorials by Atlassian in BitBucket https://www.atlassian.com/git/tutorials
 
 ## About the why of version control for scientists
 
