@@ -57,4 +57,23 @@ After adding the file, the symbol next to the file will be a plus sign.
 ![New file has a plus sign next to it](../fig/git_with_matlab_adding_files-03.png)
 
 
+## Commit
+
+Now we want to commit the file that we just added. To do that we right click on the empty space of our folder and choose `Source Control` and then `View and Commit changes`. 
+
+![Open commit window](../fig/git_with_matlab_commit-01.png)
+
+The new window offers us the opportunity to add a comment: Add new git_practice file to the repository. 
+
+![Add comment to commit](../fig/git_with_matlab_commit-02.png)
+
+After clicking Commit the git_practice.m file has a green circle next to it. This means that it has been commited locally. 
+
+![Committed file](../fig/git_with_matlab_commit-03.png)
+
+The source control menu has a push option. Selecting this option will push the changes that we saved in our local repository to our remote GitHub repository. 
+
+Chose `Push` from the Source control menu to push to the remote repository.
+
+
 NOTE: this lesson has been developed using the information in [Mathworks and Git](https://blogs.mathworks.com/community/2014/10/20/matlab-and-git/), a post by Ned Gulley on MathWorks Blogs. 
