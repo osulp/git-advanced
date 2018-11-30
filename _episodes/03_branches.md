@@ -30,7 +30,7 @@ $ git branch
 ~~~
 {: .output}
 
-The master branch is created with the repository is initialized. With an argument, the `branch` command creates a new branch with the given name. Let's make a new experimental branch:
+The master branch is created when the repository is initialized. With an argument, the `branch` command creates a new branch with the given name. Let's make a new experimental branch:
 
 ~~~ 
 $ git branch experimental
@@ -105,7 +105,7 @@ To https://github.com/vlad/planets.git
 ~~~
 {: .output}
 
-Note that in the past we've types `git push origin master` when pushing to our remote.
+Note that in the past we've typed `git push origin master` when pushing to our remote.
 This was because we were making changes on our `master` branch and pushing to the remote named `origin`.
 Here, we've been working on our `experimental` branch. To push those changes to GitHub, we therefore specify that we want to push the `experimental` branch to the remote named `origin`. 
 
