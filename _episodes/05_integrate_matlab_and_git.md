@@ -54,7 +54,7 @@ To add the file right click on the file and select Add to Git.
 
 After adding the file, the symbol next to the file will be a plus sign. 
 
-![New file has a plus sign next to it](../fig/git_with_matlab_adding_files-02.png)
+![New file has a plus sign next to it](../fig/git_with_matlab_adding_files-03.png)
 
 
 NOTE: this lesson has been developed using the information in [Mathworks and Git](https://blogs.mathworks.com/community/2014/10/20/matlab-and-git/), a post by Ned Gulley on MathWorks Blogs. 
