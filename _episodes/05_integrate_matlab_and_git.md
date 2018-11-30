@@ -73,7 +73,7 @@ After clicking Commit the git_practice.m file has a green circle next to it. Thi
 
 The source control menu has a push option. Selecting this option will push the changes that we saved in our local repository to our remote GitHub repository. 
 
-Chose `Push` from the Source control menu to push to the remote repository.
+Choose `Push` from the Source control menu to push to the remote repository.
 
 
 NOTE: this lesson has been developed using the information in [Mathworks and Git](https://blogs.mathworks.com/community/2014/10/20/matlab-and-git/), a post by Ned Gulley on MathWorks Blogs. 
