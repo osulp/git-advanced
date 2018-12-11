@@ -15,7 +15,10 @@ $ cd Desktop
 {: .language-bash}
 
 
-If you have not been in the [Intro to Git - Beginner](https://osulp.github.io/git-beginner/) workshop make sure that you are comfortable with the concepts explained in the beginner workshop and take the following steps to prepare for this workshop:
+If you have not been in the [Intro to Git - Beginner](https://osulp.github.io/git-beginner/) workshop make sure that you are comfortable with the concepts explained in the beginner workshop and that you create a repository (local and remote in GitHub) named planets so that we can work on it for the lesson. To create the repository planets you have two options:
+
+# Option 1:
+Take the following steps to prepare for this workshop:
 
 
 Create a directory named planets in your Desktop
@@ -69,6 +72,20 @@ $ git push origin master
 
 
 That's all!
+
+# Option 2
+Alternatively, you can also clone this repository [https://github.com/clarallebot/planets](https://github.com/clarallebot/planets) that has more or less the same information. 
+
+Click on the Fork button in the planets repository. It is on the top right. Once GitHub has finished forking create a folder in your computer where you would like to save a local version of this repository. For example, if you want this to be in the Desktop:
+
+~~~
+$ cd
+$ cd Desktop
+$ mkdir planets
+$ cd planets
+~~~
+{: .language-bash}
+
 
 
 [workshop-setup]: https://carpentries.github.io/workshop-template/#git
