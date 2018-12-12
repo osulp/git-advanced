@@ -17,7 +17,7 @@ $ cd Desktop
 
 If you have not been in the [Intro to Git - Beginner](https://osulp.github.io/git-beginner/) workshop make sure that you are comfortable with the concepts explained in the beginner workshop and that you create a repository (local and remote in GitHub) named planets so that we can work on it for the lesson. To create the repository planets you have two options:
 
-# Option 1:
+## Option 1:
 Take the following steps to prepare for this workshop:
 
 
@@ -73,19 +73,32 @@ $ git push origin master
 
 That's all!
 
-# Option 2
+## Option 2
 Alternatively, you can also clone this repository [https://github.com/clarallebot/planets](https://github.com/clarallebot/planets) that has more or less the same information. 
 
-Click on the Fork button in the planets repository. It is on the top right. Once GitHub has finished forking create a folder in your computer where you would like to save a local version of this repository. For example, if you want this to be in the Desktop:
+Click on the Fork button in the planets repository. It is on the top right. Once GitHub has finished forking clone the repository in your computer. Make sure that you are in the right folder. For example, if you want this to be in the Desktop:
 
 ~~~
 $ cd
 $ cd Desktop
-$ mkdir planets
-$ cd planets
 ~~~
 {: .language-bash}
 
+Then clone the repository in your computer
 
+~~~
+$ git clone https://github.com/username/planets.git
+~~~
+{: .language-bash}
+
+You should be all set. 
+
+# Review the content in the beginner lesson
+
+If the instructions of option 1 or option 2 do not sound familiar, we suggest that you come to the Beginner workshop too. 
+
+If you are planning on coming to the advanced workshop but are not attending the beginner workshop we suggest that you take a quick look at the [Version control with Git: Beginner](https://osulp.github.io/git-beginner/) lesson to make sure that you have all the concepts fresh. 
+
+Let us know if you have any questions!
 
 [workshop-setup]: https://carpentries.github.io/workshop-template/#git
