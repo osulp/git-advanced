@@ -7,7 +7,7 @@ root: .
 
 All Software Carpentry and Data Carpentry instructional material is
 made available under the [Creative Commons Attribution
-license][cc-by-human]. This lesson, modified from the [Git novice](https://swcarpentry.github.io/git-novice/) lesson, is also licensed under a [Creative Commons Attribution
+license][cc-by-human]. This lesson, modified from the official Software Carpentry [Git novice](https://swcarpentry.github.io/git-novice/) lesson, and from the [Biologyguy Git novice](https://github.com/biologyguy/git-novice) lesson by librarians and programmers of [OSULP](https://osulibrary.oregonstate.edu/) is also licensed under a [Creative Commons Attribution
 license][cc-by-human].
 
 The following is a human-readable summary of
