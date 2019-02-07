@@ -44,29 +44,20 @@ Make changes to the files in this repository the same way you would in
 
 ## Contributing to a repo via pull request
 
-Add another conversion tool to the growing list of functions in
- conversions.py
+Add another line into pluto.txt 
 
 ~~~
-# My Conversion Tools
-
-def dollars2cents(dollars):
-    cents = dollars * 100
-    return cents
-
-...
-
-def mole2atoms(mol):
-    atoms = mole * 6.02e23
-    return atoms
+It is so a planet!
+A planet with a charming heart on its surface; What's not to love?
+It is a small planet, but we still like it.
 ~~~
-{: .python}
+{: .bash}
 
 Create a commit, and push it to GitHub.
 
 ~~~
-$ git add conversion.py
-$ git commit -m "Add mole to atoms converter function"
+$ git add pluto.txt
+$ git commit -m "Add considerations about Pluto's size"
 $ git push
 ~~~
 {: .bash}
