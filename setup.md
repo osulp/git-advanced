@@ -76,7 +76,7 @@ That's all!
 ## Option 2
 Alternatively, you can also clone this repository [https://github.com/clarallebot/planets](https://github.com/clarallebot/planets) that has more or less the same information. 
 
-Click on the Import repository button in your GitHub account, under the `+` sign. It is on the top right. Once GitHub has finished forking clone the repository in your computer. Make sure that you are in the right folder. For example, if you want this to be in the Desktop:
+Click on the Import repository button in your GitHub account, under the `+` sign. It is on the top right. Once GitHub has finished importing, clone the repository in your computer. Make sure that you are in the right folder. For example, if you want this to be in the Desktop:
 
 ~~~
 $ cd
