@@ -226,12 +226,14 @@ Deleted branch experimental (was c5d6cba).
 > You've deleted your experimental branch locally, but if you look on your GitHub page, you'll see it still exists, even if you `git push --all origin`. 
 > To delete the branch remotely, you should use the syntax:    
 >
-> `git push origin <local-branch>:<remote-branch>`  
+> `git push origin :<remote-branch>`  
 >
-> In our example this is: `git push origin experimental:experimental`.
-> You can also use the shorthand version: `git push origin :experimental`. 
+> In our example this is: `git push origin :experimental`. 
 > Using this notation, Git assumes you are listing the remote branch and want to push the branch you are currently in on the local repo. 
 > Essentially you are pushing "nothing" to the remote branch, which erases it.
+>
+> Theoretically the notation `git push origin <local-branch>:<remote-branch>` should work, and the above notation should be the shorthand version. 
+> Hovewer, what we have experienced is that only the shorthand notation works. 
 {: .callout}
 
 
