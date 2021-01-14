@@ -1,6 +1,6 @@
 ---
 title: Introduction to Git
-teaching: 10
+teaching: 20
 exercises: 0
 questions:
 - "What is version control and why should I use it?"
