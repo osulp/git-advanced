@@ -27,6 +27,11 @@ keypoints:
 
 This is an Advanced Intro to Git lesson. This means that it is based on the [Intro to Git - beginner](https://osulp.github.io/git-beginner/) lesson. Below you will find a summary of the beginner lesson, so that you can get up to speed if you are coming to the advanced lesson without taking the beginning lesson first. Take into account that this is only a summary, so we will go over some concepts rather quickly. If you are not comfortable with some of the concepts outlined here, make sure to take the beginner lesson first.  
 
+This lesson is the story of Wolfman and Dracula who are investigating if it
+is possible to send a planetary lander to Mars, and decide to use Git for their reports. 
+
+![motivatingexample](../fig/motivatingexample.png)
+
 # Automated version control
 
 Version control systems start with a base version of the document and
@@ -81,11 +86,8 @@ in a later lesson will include this information.
 
 # Creating a repository
 
-Once Git is configured,
-we can start using it.
+Once Git is configured, we can start using it.
 
-We will continue with the story of Wolfman and Dracula who are investigating if it
-is possible to send a planetary lander to Mars. 
 
 First, let's create a directory in `Desktop` folder for our work and then move into that directory:
 
