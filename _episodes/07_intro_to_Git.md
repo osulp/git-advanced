@@ -27,6 +27,22 @@ keypoints:
 
 This is an Advanced Intro to Git lesson. This means that it is based on the [Intro to Git - beginner](https://osulp.github.io/git-beginner/) lesson. Below you will find a summary of the beginner lesson, so that you can get up to speed if you are coming to the advanced lesson without taking the beginning lesson first. Take into account that this is only a summary, so we will go over some concepts rather quickly. If you are not comfortable with some of the concepts outlined here, make sure to take the beginner lesson first.  
 
+This pages summarizes the following content:
+* What is automated version control
+* Initializing a repository
+* How to check the status of the repository with `git status`
+* How to `add` and `commit` with git.
+* How to check commits with `git log`.
+* Create a remote repository in GitHub
+* Connect the local and remote repositories.
+* `push` and `pull` content to the remote repository. 
+
+Other content that the beginner lesson addresses that we will NOT cover here:
+* A thorough explanation of all the contents in the previous list
+* Ignore files with `.gitignore`
+* Work with the history of the repository
+* Restore older versions
+
 This lesson is the story of Wolfman and Dracula who are investigating if it
 is possible to send a planetary lander to Mars, and decide to use Git for their reports. 
 
