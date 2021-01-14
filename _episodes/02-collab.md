@@ -27,7 +27,7 @@ play Owner and Collaborator.
 
 The Owner needs to give the Collaborator access.
 On GitHub, click the settings button on the right,
-then select Collaborators, and enter your partner's username.
+then select Manage Access, and enter your partner's username.
 
 ![Adding Collaborators on GitHub](../fig/github-add-collaborators.png)
 
