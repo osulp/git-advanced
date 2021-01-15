@@ -32,17 +32,24 @@ select the repository, and click on the 'fork' button:
 
 &nbsp;
 
-Now clone the repository normally
+This will create a copy of your partner's repository in your GitHub page.
+
+Now clone the repository normally, so that you will have a local copy of the repository. 
 
 ~~~
 $ git clone https://your-fork-of-your-partners-repo
 ~~~
 {: .bash}
 
-Make changes to the files in this repository the same way you would in
+At this moment there are three identical copies of the repository:
+* The organization's repository (in this case, your partner's repository). You usually don't have permission to edit that one.
+* Your forked copy of the organization's repository in your GitHub space. 
+* Your local copy of the repository in your GitHub space. 
+
+
+Make changes to the files in your version of the repository the same way you would in
  any other. This is now **your** copy of the code, to do whatever you
- like with (within the bounds of the license agreement, as will be
- discussed later). 
+ like with. 
 
 
 ## Contributing to a repo via pull request
