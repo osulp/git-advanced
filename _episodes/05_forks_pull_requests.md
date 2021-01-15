@@ -79,7 +79,7 @@ You could now email the maintainer of the original repository to tell
  their own code base, but GitHub makes the process much easier with
  **Pull Requests**.
 
-![Forking repo (Step 1)](../fig/github-fork-02.png)
+![Forking repo (Step 1)](../fig/github-fork-stars-02.png)
 
 &nbsp;
 
