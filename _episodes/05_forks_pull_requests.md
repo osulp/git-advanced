@@ -21,7 +21,7 @@ There are no shortage of projects on GitHub, and you will not be able
  primary repository.
 
 
-![forkpullrequest](../fig/github_fork_pull_request.png)
+
 
 ## Creating a fork
 
@@ -46,6 +46,7 @@ At this moment there are three identical copies of the repository:
 * Your forked copy of the organization's repository in your GitHub space. 
 * Your local copy of the repository in your GitHub space. 
 
+![forkpullrequest](../fig/github_fork_pull_request.png)
 
 Make changes to the files in your version of the repository the same way you would in
  any other. This is now **your** copy of the code, to do whatever you
