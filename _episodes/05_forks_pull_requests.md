@@ -85,7 +85,7 @@ You could now email the maintainer of the original repository to tell
 
 Compare the changes you want to add to your pull request and send it off
 
-![Forking repo (Step 1)](../fig/github-fork-03.png)
+![Forking repo (Step 1)](../fig/github-fork-stars-03.png)
 
 &nbsp;
 
