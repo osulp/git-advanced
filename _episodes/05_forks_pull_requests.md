@@ -89,7 +89,7 @@ Compare the changes you want to add to your pull request and send it off
 
 &nbsp;
 
-![Forking repo (Step 1)](../fig/github-fork-04.png)
+![Forking repo (Step 1)](../fig/github-fork-stars-04.png)
 
 &nbsp;
 
