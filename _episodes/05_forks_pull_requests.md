@@ -20,6 +20,9 @@ There are no shortage of projects on GitHub, and you will not be able
  rely on selectively pulling commits from a **forked** version of their
  primary repository.
 
+
+![forkpullrequest](../fig/github_fork_pull_request.png)
+
 ## Creating a fork
 
 To create a fork if your partner's repository, go to their GitHub page,
