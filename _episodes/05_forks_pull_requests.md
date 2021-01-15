@@ -28,7 +28,7 @@ There are no shortage of projects on GitHub, and you will not be able
 To create a fork if your partner's repository, go to their GitHub page,
 select the repository, and click on the 'fork' button:
 
-![Forking repo (Step 1)](../fig/github-fork-01.png)
+![Forking repo (Step 1)](../fig/github-fork-stars-01.png)
 
 &nbsp;
 
