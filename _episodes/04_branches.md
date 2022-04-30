@@ -26,11 +26,11 @@ $ git branch
 {: .language-bash}
 
 ~~~ 
-* master
+* main
 ~~~
 {: .output}
 
-The master branch is created when the repository is initialized. With an argument, the `branch` command creates a new branch with the given name. Let's make a new experimental branch:
+The main branch is created when the repository is initialized. With an argument, the `branch` command creates a new branch with the given name. Let's make a new experimental branch:
 
 ~~~ 
 $ git branch experimental
@@ -39,11 +39,11 @@ $ git branch experimental
 
 ~~~
   experimental
-* master
+* main
 ~~~
 {: .output}
 
-The star indicates we are currently in the master branch of our repository. To switch branches, we use the `git checkout` command to checkout a different branch. 
+The star indicates we are currently in the main branch of our repository. To switch branches, we use the `git checkout` command to checkout a different branch. 
 
 ~~~
 $ git checkout experimental
@@ -55,7 +55,7 @@ $ git branch
 Switched to branch 'experimental'
 
 * experimental
-  master
+  main
 ~~~
 {: .output}
 
@@ -105,8 +105,8 @@ To https://github.com/vlad/planets.git
 ~~~
 {: .output}
 
-Note that in the past we've typed `git push origin master` when pushing to our remote.
-This was because we were making changes on our `master` branch and pushing to the remote named `origin`.
+Note that in the past we've typed `git push origin main` when pushing to our remote.
+This was because we were making changes on our `main` branch and pushing to the remote named `origin`.
 Here, we've been working on our `experimental` branch. To push those changes to GitHub, we therefore specify that we want to push the `experimental` branch to the remote named `origin`. 
 
 Let's check our status:
@@ -122,15 +122,15 @@ nothing to commit, working directory clean
 ~~~
 {: .output}
 
-You can see from the git status output that we are on the experimental branch rather than the master branch. Let's examine the master branch to ensure the original version of our `pluto.txt` doesn't include this sentimental statement:
+You can see from the git status output that we are on the experimental branch rather than the main branch. Let's examine the main branch to ensure the original version of our `pluto.txt` doesn't include this sentimental statement:
 
 ~~~
-$ git checkout master
+$ git checkout main
 ~~~
 {: .language-bash}
 
 ~~~
-Switched to branch 'master'
+Switched to branch 'main'
 ~~~
 {: .output}
 
@@ -144,11 +144,11 @@ It is so a planet!
 ~~~
 {: .output}
 
-As you can see, the master branch does not include our updated notes about Pluto. 
-If we look on GitHub, we can switch between the `master` and `experimental` branch and see the same difference between the two versions of `pluto.txt`. 
-We are pretty confident that the heart in Pluto is charming, so let's fold in all of the changes that we've made on the experimental branch into our master branch. 
+As you can see, the main branch does not include our updated notes about Pluto. 
+If we look on GitHub, we can switch between the `main` and `experimental` branch and see the same difference between the two versions of `pluto.txt`. 
+We are pretty confident that the heart in Pluto is charming, so let's fold in all of the changes that we've made on the experimental branch into our main branch. 
 To merge two branches together, ensure you are located in the branch you want to fold changes into. 
-In our case, we want to be in the master branch:
+In our case, we want to be in the main branch:
 
 ~~~ 
 $ git branch
@@ -157,11 +157,11 @@ $ git branch
 
 ~~~
   experimental
-* master
+* main
 ~~~
 {: .output}
 
-Excellent, we are in the right place. To fold the experimental branch into the master branch, we use the `merge` function of git followed by the name of the branch we want to fold in:
+Excellent, we are in the right place. To fold the experimental branch into the main branch, we use the `merge` function of git followed by the name of the branch we want to fold in:
 
 ~~~
 $ git merge experimental
@@ -192,14 +192,14 @@ A planet with a charming heart on its surface; What's not to love?
 Now let's push these changes up to github:
 
 ~~~
-$ git push origin master
+$ git push origin main
 ~~~
 {: .language-bash}
 
 ~~~
 Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/vlad/planets.git
-   a822910..10ed071  master -> master
+   a822910..10ed071  main -> main
 ~~~
 {: .output}
 
@@ -242,5 +242,5 @@ Deleted branch experimental (was c5d6cba).
 > In your `bio` repository you made earlier, do the following:  
 > 1. Create a branch called `grad_school`  
 > 2. Create a file called `thesis` and write one line about your research (or something about science if you don't know what you'll be researching yet)  
-> 3. Merge those changes back to the master branch of `bio`.
+> 3. Merge those changes back to the main branch of `bio`.
 {: .challenge}
