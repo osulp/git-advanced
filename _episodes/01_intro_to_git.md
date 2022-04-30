@@ -100,6 +100,19 @@ which means that any changes pushed to
 another Git host server
 in a later lesson will include this information.
 
+~~~
+$ git config --global init.defaultBranch main
+~~~
+{: .language-bash}
+
+Source file changes are associated with a "branch." 
+For new learners in this lesson, it's enough to know that branches exist, and this lesson uses one branch.  
+By default, Git will create a branch called `master` 
+when you create a new repository with `git init` (as explained in the next Episode). This term evokes 
+the racist practice of human slavery and the 
+[software development community](https://github.com/github/renaming)  has moved to adopt 
+more inclusive language. 
+
 # Creating a repository
 
 Once Git is configured, we can start using it.
@@ -139,6 +152,16 @@ including all files and sub-directories located within the project's directory.
 If we ever delete the `.git` sub-directory,
 we will lose the project's history.
 
+Next, we will change the default branch to be called main. This might be the default branch depending on your settings and version of git. 
+~~~
+$ git checkout -b main
+~~~
+{: .language-bash}
+~~~
+Switched to a new branch 'main'
+~~~
+{: .output}
+
 We can check that everything is set up correctly
 by asking Git to tell us the status of our project:
 
@@ -147,7 +170,7 @@ $ git status
 ~~~
 {: .language-bash}
 ~~~
-# On branch master
+# On branch main
 #
 # Initial commit
 #
@@ -187,7 +210,7 @@ $ git status
 {: .language-bash}
 
 ~~~
-On branch master
+On branch main
 
 Initial commit
 
@@ -216,7 +239,7 @@ $ git status
 {: .language-bash}
 
 ~~~
-On branch master
+On branch main
 
 Initial commit
 
@@ -239,7 +262,7 @@ $ git commit -m "Start notes on Mars as a base"
 {: .language-bash}
 
 ~~~
-[master (root-commit) f22b25e] Start notes on Mars as a base
+[main (root-commit) f22b25e] Start notes on Mars as a base
  1 file changed, 1 insertion(+)
  create mode 100644 mars.txt
 ~~~
@@ -270,7 +293,7 @@ $ git status
 {: .language-bash}
 
 ~~~
-On branch master
+On branch main
 nothing to commit, working directory clean
 ~~~
 {: .output}
@@ -332,7 +355,7 @@ Systems like Git allow us to move work between any two repositories.  In
 practice, though, it's easiest to use one copy as a central hub, and to keep it
 on the web rather than on someone's laptop.  Most programmers use hosting
 services like [GitHub](https://github.com), [BitBucket](https://bitbucket.org) or
-[GitLab](https://gitlab.com/) to hold those master copies.
+[GitLab](https://gitlab.com/) to hold those main copies.
 
 Let's start by sharing the changes we've made to our current project with the
 world.  Log in to GitHub, then click on the icon in the top right corner to
@@ -409,7 +432,7 @@ Once the nickname `origin` is set up, this command will push the changes from
 our local repository to the repository on GitHub:
 
 ~~~
-$ git push origin master
+$ git push origin main
 ~~~
 {: .language-bash}
 
@@ -420,8 +443,8 @@ Compressing objects: 100% (6/6), done.
 Writing objects: 100% (9/9), 821 bytes, done.
 Total 9 (delta 2), reused 0 (delta 0)
 To https://github.com/vlad/planets
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
 ~~~
 {: .output}
 
